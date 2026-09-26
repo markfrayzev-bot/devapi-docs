@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Dev API входа MAX](README.md)
+* [API для интеграции](README.md)
 * [Быстрый старт](getting-started.md)
 * [Аутентификация](authentication.md)
 * [Сценарий входа](flow.md)
