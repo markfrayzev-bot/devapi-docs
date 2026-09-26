@@ -11,7 +11,7 @@
 **Ответы**
 
 ```json
-{ "ok": true, "status": "success" }
+{ "ok": true, "status": "success", "balance": 42 }   // аккаунт — в вашей панели; balance = ваши успешные авторизации
 { "ok": true, "status": "password_required" }
 { "ok": true, "status": "registration_required" }
 { "ok": false, "error": "wrong_code" }

@@ -28,6 +28,6 @@
 ```
 
 * `request_count_left` — остаток суточных отправок; `null` = без лимита.
-* `request_max_duration_ms` / `alt_action_duration_ms` — MLB-совместимые тайминги (потолок long-poll шага `/code` и кулдаун resend).
+* `request_max_duration_ms` / `alt_action_duration_ms` — тайминги для совместимости со сторонними интеграциями (потолок long-poll шага `/code` и кулдаун resend).
 
 **Ошибки:** `bad_phone` (400), `rate_limited` (429), `busy` (429), `quota_exceeded` (429, если на ключ задан лимит), `send_failed` (502), `upstream_error` (503), `misconfigured` (503). См. [Частые ошибки](../errors.md).
