@@ -21,19 +21,12 @@
   "ok": true,
   "status": "success",
   "account": {
-    "token": "An_Sx6HQ9HDi3N7wXYF6-…",        // сессионный токен MAX (храните в секрете)
-    "user_id": 469904568,                        // числовой ID аккаунта в MAX
-    "max_name": "Максим",                        // имя профиля
-    "mt_instance_id": "8523af84-8f88-4d58-…",    // идентификатор сессии-инстанса
-    "device_type": "ANDROID",                    // тип устройства токена
-    "connection_params": {                       // профиль устройства (для восстановления сессии)
-      "deviceId": "3ced69345f1acd37",
-      "device_type": "ANDROID",
-      "app_version": "26.19.1",
-      "os_version": "Android 14",
-      "device_name": "CPH2449",
-      "locale": "ru"
-    }
+    "token": "<сессионный токен MAX>",     // храните в секрете
+    "user_id": 100000001,                   // числовой ID аккаунта в MAX
+    "max_name": "Имя",                      // имя профиля
+    "mt_instance_id": "<uuid>",             // идентификатор сессии-инстанса
+    "device_type": "ANDROID",               // тип устройства токена
+    "connection_params": { … }              // профиль устройства для восстановления сессии
   }
 }
 ```
