@@ -11,5 +11,5 @@
 **Ответ**
 
 ```json
-{ "ok": true, "status": "success", "account": { } }
+{ "ok": true, "status": "success" }
 ```

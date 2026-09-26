@@ -5,7 +5,6 @@
 * [Аутентификация](authentication.md)
 * [Сценарий входа](flow.md)
 * [Пример интеграции](integration.md)
-* [Формат ответов](responses.md)
 
 ## Эндпоинты
 

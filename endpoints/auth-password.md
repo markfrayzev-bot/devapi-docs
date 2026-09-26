@@ -11,7 +11,7 @@
 **Ответ**
 
 ```json
-{ "ok": true, "status": "success", "account": { } }
+{ "ok": true, "status": "success" }
 { "ok": false, "error": "wrong_password" }
 ```
 

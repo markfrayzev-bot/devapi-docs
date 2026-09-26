@@ -50,7 +50,7 @@ data = requests.post(f"{BASE}/v1/auth/code",
 # 3) ветвление по статусу
 status = data.get("status")
 if status == "success":
-    print("Готово:", data["account"]["user_id"])
+    print("Готово — аккаунт в вашей панели")
 elif status == "password_required":
     pw = input("2FA пароль: ")
     print(requests.post(f"{BASE}/v1/auth/password",
@@ -82,7 +82,7 @@ const res = await post("/v1/auth/code", { session_id, code: "123456" });
 // 3) ветвление по статусу
 switch (res.status) {
   case "success":
-    console.log("Готово:", res.account.user_id); break;
+    console.log("Готово — аккаунт в вашей панели"); break;
   case "password_required":
     console.log(await post("/v1/auth/password", { session_id, password: "2fa-пароль" })); break;
   case "registration_required":
@@ -103,4 +103,4 @@ switch (res.status) {
 * Ветвитесь по полю `status`, а не по HTTP-коду.
 * Не дёргайте `/v1/auth/resend` чаще `resend_after_ms`.
 * Завершайте ненужные сессии через `/v1/auth/cancel`.
-* Токен из `account` — секрет: не логируйте и не отдавайте в браузер.
+* Аккаунт не возвращается клиенту — он появляется в вашей панели (раздел аккаунтов).
