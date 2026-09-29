@@ -9,7 +9,7 @@
   "ok": true,
   "balance": 128,
   "quota_daily": 0,
-  "rate_per_min": 30,
+  "rate_per_min": 60,
   "sends_today": 17
 }
 ```
